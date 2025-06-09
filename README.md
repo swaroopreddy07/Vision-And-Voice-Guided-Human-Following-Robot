@@ -41,3 +41,63 @@ This project aims to build an **Autonomous Assistive Robot** that combines **com
 ---
 
 
+## 📷 How It Works
+
+1. The **camera** continuously streams video.
+2. The **YOLOv5 model** detects if a person is in view.
+3. The **Kalman Filter** tracks the person's movement.
+4. **ADMM optimization** and **PID control** guide the robot to follow the person smoothly.
+5. The **microphone** listens for voice commands.
+6. An **FFT filter** cleans the audio and detects commands like "follow me" or "stop".
+7. A **Flask web interface** lets users control and monitor the robot remotely.
+
+---
+
+## 📡 Web Interface
+
+- 🌍 Real-time video streaming from the robot.
+- 🎮 Manual control: forward, backward, left, right, stop.
+- ⚙️ Status indicators and logs.
+
+---
+
+## 🧠 Use Cases
+
+- 🧓 Assisting elderly or disabled people indoors
+- 🏥 Support robot in hospital wards
+- 🧑‍🏫 Follower robot in classrooms or lecture halls
+- 🏠 Home companion for smart automation
+- 🔍 Surveillance and monitoring with mobility
+
+---
+
+## 🧪 Future Improvements
+
+- Add obstacle sensors (e.g., ultrasonic, LIDAR)
+- Implement room mapping (SLAM)
+- Expand voice commands using NLP models
+- Enable automatic charging/docking behavior
+
+---
+
+## 📋 Requirements
+
+- Python 3.8+
+- Raspberry Pi (or compatible SBC)
+- USB camera & microphone
+- Motor driver (e.g., L298N)
+- Motors & wheels
+- Flask
+- OpenCV
+- PyTorch (for YOLOv5)
+- NumPy, SciPy
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/autonomous-assistive-robot.git
+cd autonomous-assistive-robot
+pip install -r requirements.txt
+
