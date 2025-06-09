@@ -91,5 +91,9 @@ This project aims to build an **Autonomous Assistive Robot** that combines **com
 - OpenCV
 - PyTorch (for YOLOv5)
 - NumPy, SciPy
+---
+## 📑 Project Report
 
+For a **detailed explanation of the project**, visit the full report here:  
+👉 [Autonomous Assistive Robot – Project Report](https://nagateja9110.github.io/robotics_A6/)
 
