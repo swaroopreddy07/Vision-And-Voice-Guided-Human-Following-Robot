@@ -1,0 +1,123 @@
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.float-container {
+    border: 3px solid #fff;
+}
+
+.float-child {
+    float: left;
+}  
+
+.left {
+    /*border: 1px solid red;*/
+    width: 52%;
+    padding: 0px 0px 0px 40px;
+}
+
+.right {
+    /*border: 1px solid blue;*/
+    padding-left: 140px;
+    width: 38%;
+}
+
+#txtlbl {
+    color: #9a9a9a;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.rdlbl {
+    color: #aeaeae;
+    font-size: 13pt;
+}
+
+input[type=radio] {
+    margin-top: 15px;
+}
+
+.ctrlDiv {
+    border: 1px solid red;
+}
+
+#ctrltbl {
+    text-align: center;
+    padding: 40px 100px;
+    background-color: #f4f4f4;
+    margin-top: 45px;
+    border-radius: 15px;
+
+}
+
+.icn {
+    height: 120px;
+}
+
+#stopicn{
+    padding: 15px;
+}
+
+h1 {
+    margin-top:0;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 350px;
+    background-color: #2078e8;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 0px 10px 30px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    left: 110%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#ttimg {
+    width: 15px;
+}
+
+#remoteMovement {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #86b4d5;
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+    padding: 5px 10px;
+    width: 180px;
+    height: 35px;
+    margin-top:10px;
+}
+
+#humanFollowing {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #3e8bcd;
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+    padding: 5px 10px;
+    width: 180px;
+    height: 35px;
+    margin-top:10px;
+}
+
+#humanFollowing:hover, #remoteMovement:hover {
+    cursor: pointer;
+}
