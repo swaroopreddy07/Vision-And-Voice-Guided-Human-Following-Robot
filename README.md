@@ -92,12 +92,4 @@ This project aims to build an **Autonomous Assistive Robot** that combines **com
 - PyTorch (for YOLOv5)
 - NumPy, SciPy
 
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/yourusername/autonomous-assistive-robot.git
-cd autonomous-assistive-robot
-pip install -r requirements.txt
 
